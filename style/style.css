@@ -142,8 +142,8 @@ h1 {
     position: relative;
   }
   .header-wrap .header-container {
-    position: relative;
-    background: url("/images/bg/union-mobile.png") no-repeat left;
+    background: url("../images/bg/union-full.png");
+    background-size: cover;
     min-height: 550px;
   }
   .header-wrap .header-container .button-scroll {
@@ -562,7 +562,7 @@ h1 {
     position: relative;
   }
   .header-wrap .header-container {
-    background: url("/images/bg/union-full.png");
+    background: url("../images/bg/union-full.png");
     background-size: cover;
     min-height: 893px;
   }
@@ -1005,7 +1005,7 @@ h1 {
     position: relative;
   }
   .header-wrap .header-container {
-    background: url("/images/bg/union-full.png") no-repeat center;
+    background: url("../images/bg/union-full.png") no-repeat center;
     background-size: cover;
     min-height: 893px;
   }
@@ -1452,7 +1452,7 @@ h1 {
     position: relative;
   }
   .header-wrap .header-container {
-    background: url("/images/bg/union-tablet-hd.png") no-repeat center;
+    background: url("../images/bg/union-tablet-hd.png") no-repeat center;
     background-size: contain;
     min-height: 770px;
     min-width: 670px;
@@ -1901,7 +1901,7 @@ h1 {
     position: relative;
   }
   .header-wrap .header-container {
-    background: url("/images/bg/union-tablet-hd.png") no-repeat center;
+    background: url("../images/bg/union-tablet-hd.png") no-repeat center;
     background-size: contain;
     min-height: 770px;
     min-width: 670px;
