@@ -534,8 +534,11 @@ h1 {
         footer {
             @include flex(center, center, 0);
             flex-direction: column;
+            width: 100%;
             
             .footer__nav {
+                @include flex(center, center, 0);
+                flex-direction: column;
                 margin-bottom: 30px;
     
                 .footer__nav-item {
@@ -976,7 +979,7 @@ h1 {
         footer {
         
             .footer__nav {
-                @include flex(center, flex-direction, 0);
+                @include flex(center, center, 0);
                 flex-direction: row;
                 margin-bottom: 30px;
                 position: relative;
@@ -1443,7 +1446,7 @@ h1 {
         footer {
         
             .footer__nav {
-                @include flex(center, flex-direction, 0);
+                @include flex(center, center, 0);
                 flex-direction: row;
                 margin-bottom: 30px;
                 position: relative;
@@ -1908,7 +1911,7 @@ h1 {
         footer {
         
             .footer__nav {
-                @include flex(center, flex-direction, 0);
+                @include flex(center, center, 0);
                 flex-direction: row;
                 margin-bottom: 30px;
                 position: relative;
@@ -2374,7 +2377,7 @@ h1 {
         footer {
         
             .footer__nav {
-                @include flex(center, flex-direction, 0);
+                @include flex(center, center, 0);
                 flex-direction: row;
                 margin-bottom: 30px;
                 position: relative;

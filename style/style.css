@@ -501,8 +501,14 @@ h1 {
     align-items: center;
     gap: 0;
     flex-direction: column;
+    width: 100%;
   }
   .footer-container footer .footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
     margin-bottom: 30px;
   }
   .footer-container footer .footer__nav .footer__nav-item {
@@ -929,7 +935,7 @@ h1 {
   .footer-container footer .footer__nav {
     display: flex;
     justify-content: center;
-    align-items: flex-direction;
+    align-items: center;
     gap: 0;
     flex-direction: row;
     margin-bottom: 30px;
@@ -1375,7 +1381,7 @@ h1 {
   .footer-container footer .footer__nav {
     display: flex;
     justify-content: center;
-    align-items: flex-direction;
+    align-items: center;
     gap: 0;
     flex-direction: row;
     margin-bottom: 30px;
@@ -1824,7 +1830,7 @@ h1 {
   .footer-container footer .footer__nav {
     display: flex;
     justify-content: center;
-    align-items: flex-direction;
+    align-items: center;
     gap: 0;
     flex-direction: row;
     margin-bottom: 30px;
@@ -2272,7 +2278,7 @@ h1 {
   .footer-container footer .footer__nav {
     display: flex;
     justify-content: center;
-    align-items: flex-direction;
+    align-items: center;
     gap: 0;
     flex-direction: row;
     margin-bottom: 30px;
